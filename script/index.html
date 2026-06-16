@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Культури</title>
+  <link rel="stylesheet" href="../styles/style.css" >
+  <script src="../script/script.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__spotlight"></div>
+    <nav class="nav">
+      <ul class="nav__menu">
+	    <li><a href="#events">Мероприятия</a></li>
+	    <li><a href="#themes">Темы</a></li>
+	    <li><a href="#lectures">Лекции</a></li>
+		<li><a href="#download">Скачать</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero__content">
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--dark intro" id="download">
+      <div class="container intro__grid">
+        <div class="intro__image">
+		  <img src="../images/nout.png" alt="Приложение на ноутбуке" class="laptop-bg" >
+
+		  <div class="laptop-screen" id="screen">
+			<div class="screen-content">
+			  <img src="../images/inlaptop.png" alt="Сайт внутри ноутбука" class="inlaptop-img" >
+			</div>
+		  </div>
+		</div>
+        <div class="intro__text">
+          <h1>Откройте культуру по-новому - читайте, проходите викторины, общайтесь и покупайте билеты на события прямо в приложении.</h1>
+          <a href="#" class="btn">скачать</a>
+        </div>
+      </div>
+      <p class="section__note">
+        Платформа помогает не просто читать, а вовлекаться в культуру через интерактив и живые события.
+      </p>
+    </section>
+
+	<section class="section section--dark museum" id="museumSection">
+	  <div class="container">
+		<h2>Выбери свой любимый музей</h2>
+
+		<div class="museum__grid">
+		  <div class="museum__images">
+			<img src="../images/ms1.jpg" alt="Музей 1" class="museum__small" id="img1" >
+			<img src="../images/ms2.jpg" alt="Музей 2" class="museum__small museum__small--second" id="img2" >
+		  </div>
+
+		  <div class="museum__info">
+			<h3 id="museumName">Лувр</h3>
+			<p id="museumDescription">
+			  Художественный музей в Париже. Расположен в центре города, на правом берегу Сены.
+			</p>
+		  </div>
+		</div>
+	  </div>
+	</section>
+
+	
+	<section class="section section--dark lectures" id="lectures">
+	  <div class="container">
+		<h2>Лекции на разный темы</h2>
+
+    <div class="lectures__cards">
+		  <article class="lecture-card">
+			<img src="../images/1.png" alt="Лекция 1" >
+			<div class="lecture-card__body">
+			<div class="lecture-tags">
+			  <span class="tag">4.7</span>
+			  <span class="tag">Театр</span>
+			 </div>
+			  <h3>Все о Московском Художественном театре</h3>
+			</div>
+		  </article>
+
+		  <article class="lecture-card">
+			<img src="../images/2.png" alt="Лекция 2" >
+			<div class="lecture-card__body">
+			<div class="lecture-tags">
+			<span class="tag">5.0</span>
+			  <span class="tag">Искусство</span>
+			</div>
+			  <h3>Великие художники: Рембрандт</h3>
+			  </div>
+		  </article>
+
+		  <article class="lecture-card">
+			<img src="../images/3.png" alt="Лекция 3" >
+			<div class="lecture-card__body">
+			<div class="lecture-tags">
+			<span class="tag">4.8</span>
+			  <span class="tag">Искусство</span>
+			</div>
+			  <h3>Триптих «Снятие с креста» Рубенса: разбор</h3>
+			  </div>
+		  </article>
+
+		  <article class="lecture-card">
+			<img src="../images/4.png" alt="Лекция 4" >
+			<div class="lecture-card__body">
+			<div class="lecture-tags">
+			<span class="tag">4.5</span>
+			  <span class="tag">Искусство</span>
+			 </div>
+			  <h3>Работы Пикассо: Девочка на шаре</h3>
+			  </div>
+		  </article>
+		</div>
+	  </div>
+	</section>
+
+
+    <section class="section section--dark events" id="events">
+      <div class="container events__block">
+        <img src="../images/mero.png" alt="Мероприятия" >
+        <div class="events__text">
+          <h2>Более 1000 мероприятий</h2>
+        </div>
+      </div>
+    </section>
+
+	<section class="section section--dark themes" id="themes">
+		  <div class="container">
+			<h2>Темы на любой вкус</h2>
+
+			<div class="themes__grid">
+			  <div class="theme-photo">
+				<img src="../images/t1.png" alt="Сказки" >
+				<span>Сказки</span>
+			  </div>
+
+			  <div class="theme-photo">
+				<img src="../images/t2.png" alt="Кухня" >
+				<span>Кухня</span>
+			  </div>
+
+			  <div class="theme-photo">
+				<img src="../images/t3.png" alt="Природа" >
+				<span>Природа</span>
+			  </div>
+
+			  <div class="theme-photo">
+				<img src="../images/t4.png" alt="Искусство" >
+				<span>Искусство</span>
+			  </div>
+			</div>
+		  </div>
+		</section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© kultury, 2026</p>
+      <p>Мы в социальных сетях</p>
+    </div>
+  </footer>
+</body>
+</html>
