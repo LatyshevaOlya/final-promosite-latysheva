@@ -37,15 +37,15 @@ document.addEventListener('DOMContentLoaded', function() {
     if (isLouvre) {
       h3.textContent = 'Лувр';
       description.textContent = 'Художественный музей в Париже. Расположен в центре города, на правом берегу Сены.';
-      img1.src = '../images/ms1.jpg';
-      img2.src = '../images/ms2.jpg';
-      museumSection.style.background = 'url("../images/ml.png") center/cover no-repeat';
+      img1.src = 'images/ms1.jpg';
+      img2.src = 'images/ms2.jpg';
+      museumSection.style.background = 'url("images/ml.png") center/cover no-repeat';
     } else {
       h3.textContent = 'Метропо́литен';
       description.textContent = 'Был основан 13 апреля 1870 года группой американских бизнесменов и почитателей искусства.';
-      img1.src = '../images/ms3.jpg';
-      img2.src = '../images/ms4.webp';
-      museumSection.style.background = 'url("../images/metro.png") center/cover no-repeat';
+      img1.src = 'images/ms3.jpg';
+      img2.src = 'images/ms4.webp';
+      museumSection.style.background = 'url("images/metro.png") center/cover no-repeat';
     }
   }
 
